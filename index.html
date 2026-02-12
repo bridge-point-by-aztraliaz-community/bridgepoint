@@ -27,17 +27,27 @@
       .grid { grid-template-columns: 1fr; }
       h1 { font-size: 32px; }
     }
+    .brand { display:flex; align-items:center; gap:10px; font-weight:700; }
+    .brand img { height:32px; width:auto; border-radius:8px; }
+
   </style>
 </head>
 <body>
 
 <header>
-  <nav class="wrap">
+  <nav class="wrap" style="justify-content:space-between; align-items:center;">
+  <a class="brand" href="index.html">
+    <img src="UIS%20Logo.jpg" alt="BridgePoint logo">
+    <span>BridgePoint</span>
+  </a>
+  <div style="display:flex; gap:14px; flex-wrap:wrap;">
     <a href="index.html">Home</a>
     <a href="programs.html">Programs</a>
     <a href="join.html">Join</a>
     <a href="sponsors.html">Sponsors</a>
+   </div>
   </nav>
+
 
   <div class="wrap">
     <h1>BridgePoint</h1>
