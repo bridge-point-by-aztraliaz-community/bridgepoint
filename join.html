@@ -6,49 +6,55 @@
   <title>Join | BridgePoint</title>
   <style>
     :root { --max: 980px; }
-    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.5; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.5; color:#111; }
     nav { padding:18px 20px; border-bottom:1px solid #eee; }
-    nav .wrap { max-width: var(--max); margin:0 auto; display:flex; gap:14px; flex-wrap:wrap; }
-    nav a { text-decoration:none; color:#111; opacity:.8; }
+    .wrap { max-width: var(--max); margin:0 auto; }
+    nav a { text-decoration:none; color:#111; opacity:.82; }
     nav a:hover { opacity:1; }
-    .wrap { max-width: var(--max); margin:0 auto; padding: 26px 20px; }
+    .page { max-width: var(--max); margin:0 auto; padding: 26px 20px; }
     .btn { display:inline-block; padding:10px 14px; border:1px solid #111; border-radius:12px; text-decoration:none; color:#111; margin-right:10px; }
     .btn.primary { background:#111; color:#fff; }
     .box { border:1px solid #eee; border-radius:16px; padding:16px; margin-top:14px; }
-    iframe { width:100%; height:820px; border:0; }
     .muted { color:#444; }
+
+    .brand { display:flex; align-items:center; gap:10px; font-weight:700; }
+    .brand img { height:32px; width:auto; border-radius:8px; }
   </style>
 </head>
 <body>
 
 <nav>
-  <div class="wrap">
-    <a href="index.html">Home</a>
-    <a href="programs.html">Programs</a>
-    <a href="join.html"><strong>Join</strong></a>
-    <a href="sponsors.html">Sponsors</a>
+  <div class="wrap" style="display:flex; justify-content:space-between; align-items:center;">
+    <a class="brand" href="index.html">
+      <img src="UIS%20Logo.jpg" alt="BridgePoint logo">
+      <span>BridgePoint</span>
+    </a>
+
+    <div style="display:flex; gap:14px; flex-wrap:wrap;">
+      <a href="index.html">Home</a>
+      <a href="programs.html">Programs</a>
+      <a href="join.html"><strong>Join</strong></a>
+      <a href="sponsors.html">Sponsors</a>
+    </div>
   </div>
 </nav>
 
-<div class="wrap">
+<div class="page">
   <h1>Join BridgePoint</h1>
-  <p class="muted">Choose your track: <strong>Competitions</strong> or <strong>Virtual Fund Management</strong>. We’ll guide you through the next steps.</p>
+  <p class="muted">Choose your track: <strong>Competitions</strong> or <strong>Virtual Fund Management</strong>. Members may join either track — not both.</p>
 
   <p>
     <a class="btn primary" href="mailto:thomasjh0143@gmail.com">Email Us</a>
-    <a <a class="btn" href="https://wa.me/60162663602" target="_blank" rel="noopener">WhatsApp Us</a>
+    <a class="btn" href="https://wa.me/60162663602" target="_blank" rel="noopener">WhatsApp Us</a>
   </p>
 
   <div class="box">
     <h2>Application Form</h2>
-    <p class="muted">Next step: create a Google Form and paste the embed link here. I’ll guide you.</p>
     <iframe
-  src="https://docs.google.com/forms/d/e/1FAIpQLSd6k4_elUH2tsXKQ3HQlNnVqH5gnLXZc08qikplHeeln7Yr-Q/viewform?embedded=true"
-  title="BridgePoint Application Form"
-  style="width:100%; height:980px; border:0;"
->
-</iframe>
-
+      src="https://docs.google.com/forms/d/e/1FAIpQLSd6k4_elUH2tsXKQ3HQlNnVqH5gnLXZc08qikplHeeln7Yr-Q/viewform?embedded=true"
+      title="BridgePoint Application Form"
+      style="width:100%; height:980px; border:0;"
+    ></iframe>
   </div>
 </div>
 
