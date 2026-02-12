@@ -6,31 +6,42 @@
   <title>Programs | BridgePoint</title>
   <style>
     :root { --max: 980px; }
-    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.5; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.5; color:#111; }
     nav { padding:18px 20px; border-bottom:1px solid #eee; }
-    nav .wrap { max-width: var(--max); margin:0 auto; display:flex; gap:14px; flex-wrap:wrap; }
-    nav a { text-decoration:none; color:#111; opacity:.8; }
+    .wrap { max-width: var(--max); margin:0 auto; }
+    nav a { text-decoration:none; color:#111; opacity:.82; }
     nav a:hover { opacity:1; }
-    .wrap { max-width: var(--max); margin:0 auto; padding: 26px 20px; }
+    .page { max-width: var(--max); margin:0 auto; padding: 26px 20px; }
     h1 { margin: 0 0 12px; }
-    h2 { margin: 26px 0 10px; }
+    h2 { margin: 22px 0 10px; }
     .card { border:1px solid #eee; border-radius:16px; padding:16px; margin: 14px 0; }
     ul { margin: 10px 0 0 18px; }
     .note { border-left:4px solid #111; padding:10px 12px; background:#fafafa; border-radius:12px; margin-top:14px; }
+    p { color:#333; }
+
+    .brand { display:flex; align-items:center; gap:10px; font-weight:700; }
+    .brand img { height:32px; width:auto; border-radius:8px; }
   </style>
 </head>
 <body>
 
 <nav>
-  <div class="wrap">
-    <a href="index.html">Home</a>
-    <a href="programs.html"><strong>Programs</strong></a>
-    <a href="join.html">Join</a>
-    <a href="sponsors.html">Sponsors</a>
+  <div class="wrap" style="display:flex; justify-content:space-between; align-items:center;">
+    <a class="brand" href="index.html">
+      <img src="UIS%20Logo.jpg" alt="BridgePoint logo">
+      <span>BridgePoint</span>
+    </a>
+
+    <div style="display:flex; gap:14px; flex-wrap:wrap;">
+      <a href="index.html">Home</a>
+      <a href="programs.html"><strong>Programs</strong></a>
+      <a href="join.html">Join</a>
+      <a href="sponsors.html">Sponsors</a>
+    </div>
   </div>
 </nav>
 
-<div class="wrap">
+<div class="page">
   <h1>Programs</h1>
   <p>BridgePoint operates across two tracks: <strong>Investment Research Competitions</strong> (sell-side) and <strong>Virtual Fund Management</strong> (buy-side).</p>
 
@@ -42,7 +53,7 @@
     <ul>
       <li>Training from lecturers and industry professionals</li>
       <li>Structured peer discussions and collaboration</li>
-      <li>Strategic team grouping and prep support</li>
+      <li>Strategic team grouping and preparation support</li>
       <li>Curated reading materials and resources</li>
       <li>Funding assistance (subject to rules)</li>
     </ul>
@@ -51,7 +62,7 @@
     <p>The community receives <strong>10% of any cash prizes</strong> to support future training and initiatives. Competition outcomes also support branding and PR.</p>
 
     <h3>Why it matters</h3>
-    <p>Frontliners develop strong, real-world competencies: analytical thinking, financial modelling, communication, presentation, and critical reasoning — with measurable results.</p>
+    <p>Frontliners build strong, real-world competencies: analytical thinking, financial modelling, communication, presentation, and critical reasoning — backed by measurable results.</p>
 
     <div class="note">
       <strong>Note:</strong> Members may participate in either Investment Research Competitions or Virtual Fund Management — not both.
@@ -76,7 +87,6 @@
       <strong>Note:</strong> Members may participate in either Investment Research Competitions or Virtual Fund Management — not both.
     </div>
   </div>
-
 </div>
 
 </body>
