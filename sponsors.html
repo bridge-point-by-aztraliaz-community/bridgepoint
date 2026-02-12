@@ -6,50 +6,60 @@
   <title>Sponsors | BridgePoint</title>
   <style>
     :root { --max: 980px; }
-    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.5; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.5; color:#111; }
     nav { padding:18px 20px; border-bottom:1px solid #eee; }
-    nav .wrap { max-width: var(--max); margin:0 auto; display:flex; gap:14px; flex-wrap:wrap; }
-    nav a { text-decoration:none; color:#111; opacity:.8; }
+    .wrap { max-width: var(--max); margin:0 auto; }
+    nav a { text-decoration:none; color:#111; opacity:.82; }
     nav a:hover { opacity:1; }
-    .wrap { max-width: var(--max); margin:0 auto; padding: 26px 20px; }
+    .page { max-width: var(--max); margin:0 auto; padding: 26px 20px; }
     .card { border:1px solid #eee; border-radius:16px; padding:16px; margin: 14px 0; }
     .btn { display:inline-block; padding:10px 14px; border:1px solid #111; border-radius:12px; text-decoration:none; color:#111; }
     .btn.primary { background:#111; color:#fff; }
     ul { margin: 10px 0 0 18px; }
     .muted { color:#444; }
+
+    .brand { display:flex; align-items:center; gap:10px; font-weight:700; }
+    .brand img { height:32px; width:auto; border-radius:8px; }
   </style>
 </head>
 <body>
 
 <nav>
-  <div class="wrap">
-    <a href="index.html">Home</a>
-    <a href="programs.html">Programs</a>
-    <a href="join.html">Join</a>
-    <a href="sponsors.html"><strong>Sponsors</strong></a>
+  <div class="wrap" style="display:flex; justify-content:space-between; align-items:center;">
+    <a class="brand" href="index.html">
+      <img src="UIS%20Logo.jpg" alt="BridgePoint logo">
+      <span>BridgePoint</span>
+    </a>
+
+    <div style="display:flex; gap:14px; flex-wrap:wrap;">
+      <a href="index.html">Home</a>
+      <a href="programs.html">Programs</a>
+      <a href="join.html">Join</a>
+      <a href="sponsors.html"><strong>Sponsors</strong></a>
+    </div>
   </div>
 </nav>
 
-<div class="wrap">
+<div class="page">
   <h1>Partners & Sponsors</h1>
-  <p class="muted">We work with industry partners who believe in building strong finance talent early.</p>
+  <p class="muted">We work with industry partners who believe in building strong finance talent early — through training, mentorship, and measurable performance.</p>
 
   <div class="card">
     <h2>Why partner with BridgePoint</h2>
     <ul>
-      <li>Early access to high-potential talent with measurable performance</li>
-      <li>Brand exposure through competitions, events, and campus initiatives</li>
-      <li>Meaningful engagement: mentoring, talks, judging, workshops</li>
+      <li><strong>Talent access:</strong> early engagement with high-potential students who are actively building technical skills</li>
+      <li><strong>Brand visibility:</strong> exposure through competitions, outreach materials, and community initiatives</li>
+      <li><strong>Meaningful involvement:</strong> mentoring, talks, judging, or workshop support (optional)</li>
     </ul>
   </div>
 
   <div class="card">
     <h2>Capital Dynamics</h2>
-    <p>We are exploring a partnership with <strong>Capital Dynamics</strong> to support our investment research competitions and talent development initiatives.</p>
+    <p>We are exploring a partnership with <strong>Capital Dynamics</strong> to support investment research competitions and talent development initiatives at UCSI University.</p>
     <ul>
-      <li>Opportunity to engage with top-performing student analysts</li>
-      <li>Visibility across competition communications and outreach materials</li>
-      <li>Potential involvement in mentorship sessions and knowledge sharing</li>
+      <li>Engage with motivated student analysts developing sell-side and buy-side skill sets</li>
+      <li>Visibility through competition communications and relevant outreach materials</li>
+      <li>Optional involvement via mentorship sessions, sharing, or judging opportunities</li>
     </ul>
     <p style="margin-top:14px;">
       <a class="btn primary" href="mailto:thomasjh0143@gmail.com?subject=BridgePoint%20x%20Capital%20Dynamics%20Partnership">Discuss Partnership</a>
@@ -60,8 +70,8 @@
   <div class="card">
     <h2>Get in touch</h2>
     <p>Email: <a href="mailto:thomasjh0143@gmail.com">thomasjh0143@gmail.com</a></p>
+    <p class="muted">If you’d like, we can also add a dedicated sponsor interest form here.</p>
   </div>
-
 </div>
 
 </body>
